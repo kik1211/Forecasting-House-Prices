@@ -11,9 +11,9 @@ This project provides an interactive dashboard to predict property prices based 
 ### Key Capabilities
 
 - **Price Inference:** Real-time property valuation based on built-up square footage using a trained scikit-learn regression model (`indian_house_model.joblib`), accompanied by test-set $R^2$ validation metrics.
-- **Price vs. Area Analysis:** Interactive Plotly scatter distributions comparing predicted and actual transaction valuations.
-- **Bedroom Distribution:** Breakdown of inventory across 1, 2, 3, and 4+ BHK configurations.
-- **Location Analytics:** Geospatial property volume distribution across neighborhood clusters.
+- **Price vs. Area Analysis:** Plotly scatter distributions displaying actual transaction prices against built-up square footage across the test set and the broader Chennai housing dataset.
+- **Bedroom Distribution:** Pie chart breakdown of Chennai housing inventory grouped by bedroom count.
+- **Location Analytics:** Plotly bar chart displaying property inventory counts across Chennai neighborhood locations.
 
 ---
 
