@@ -1,5 +1,7 @@
 # Indian House Price Predictor
 
+[![CI Pipeline](https://github.com/kik1211/Forecasting-House-Prices/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/kik1211/Forecasting-House-Prices/actions/workflows/ci.yml)
+
 Interactive web application for exploring and forecasting residential real estate prices using regression models and Plotly analytical dashboards. Built with Python, Streamlit, and scikit-learn.
 
 ---
@@ -10,7 +12,7 @@ This project provides an interactive dashboard to predict property prices based 
 
 ### Key Capabilities
 
-- **Price Inference:** Real-time property valuation based on built-up square footage using a trained scikit-learn regression model (`indian_house_model.joblib`), accompanied by test-set $R^2$ validation metrics.
+- **Price Inference:** Real-time property valuation based on built-up square footage using a trained scikit-learn regression model (`indian_house_model.joblib`), accompanied by test-set R² validation metrics.
 - **Price vs. Area Analysis:** Plotly scatter distributions displaying actual transaction prices against built-up square footage across the test set and the broader Chennai housing dataset.
 - **Bedroom Distribution:** Pie chart breakdown of Chennai housing inventory grouped by bedroom count.
 - **Location Analytics:** Plotly bar chart displaying property inventory counts across Chennai neighborhood locations.
