@@ -74,3 +74,21 @@ Forecasting-House-Prices/
    ```
 
 5. Open your browser at `http://localhost:8501`.
+
+---
+
+## Testing
+
+The project includes an automated test suite verifying Streamlit application mounting, interactive components, regression model inference, and precomputed evaluation artifacts.
+
+### Running Tests
+
+1. Ensure dependencies are installed in your active environment:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Execute the test suite from the repository root:
+   ```bash
+   python -m unittest discover -s tests -p "test_*.py"
+   ```
